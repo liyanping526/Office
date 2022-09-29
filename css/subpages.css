@@ -1,0 +1,244 @@
+/* General Start */
+.{margin:0; padding:0;}
+body {margin:0; padding:0; font-family:Tahoma, Geneva, sans-serif;font-size:13px; color:#333; line-height:1.6em; }
+a {color:#666; text-decoration: none; cursor:pointer;}
+a:hover{ text-decoration:underline; text-decoration:none;}
+img {border-style:none;}
+ul,li,ol,dl,dt,dd {padding:0; margin:0; list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:12px; padding:0;margin:0; text-transform:capitalize;}
+p{margin:0; padding:0; color:#666; font-size:14px; font-family:Tahoma, Geneva, sans-serif; line-height:1.4em;}
+input,select{padding:1px; margin:0; font-size:12px;}
+form{padding:0;	margin:0;}
+#wrapper{ width:100%;}
+.clear {clear:both; display:block; visibility:hidden; line-height:0px; height:0px;}
+input, select, textarea, buton{ color:#2f2f2f; font:12px/15px Arial, Helvetica, sans-serif; vertical-align:middle;}
+/* General End */
+
+/* Wrapper */
+#wrapper .top{background:url(../images/bg_top.jpg) repeat-x left top; height:147px;}
+#wrapper .header{ margin:0 auto; width:100%; position:relative;}
+#wrapper .header h1{ }
+#wrapper .header h1 a{ background:url(../images/logo_chi.jpg) no-repeat left bottom; width:421px; height:95px; display:block; margin:0 auto; padding-top:27px;}
+#wrapper .displaynone{ display:none;}
+#wrapper .header .h-right{ position:absolute; right:0px; top:10px; width:200px; }
+#wrapper .header .h-right .translate{ float:right;}
+
+#wrapper .header .h-right .translate a{ background:url(../images/translate_en.jpg) no-repeat 0 0; width:52px; height:21px; display:block;}
+#wrapper .header .h-right .translate a:hover{background:url(../images/translate_en.jpg) no-repeat 0 -21px;}
+
+#wrapper .header .h-right ul{ float:right; font-size:14px; font-weight:bold; color:#FFF; text-align:right; line-height:18px; padding-top:25px;}
+#wrapper .header .h-right ul li{ text-shadow:1px 1px 0px #09C;}
+
+/* Menu */
+#wrapper .menu{ background:url(../images/bg_menu.jpg) repeat-x left top; height:43px;}
+#wrapper .menu ul{margin:0 auto; width:960px;}
+#wrapper .menu ul li{ float:left; height:43px; background:url(../images/line_menu.jpg) no-repeat right top; }
+#wrapper .menu ul li.last{ background:none;}
+#wrapper .menu ul li a{ font-size:16px; padding:0px 22px; line-height:43px; display:inline-block;  height:43px;}
+#wrapper .menu ul li ul li a{ font-size:16px; padding:0px 16px; line-height:43px; display:inline-block;  height:43px;}
+#wrapper .menu ul li a:hover{ color:#FFF; background:#599ae0;}
+#wrapper .menu ul li a.current{ color:#FFF; background:#599ae0;}
+#wrapper .menu ul li a.drawdown{ padding:0 17px 0 25px;}
+#wrapper .menu ul li a span.icon{ background: url(../images/ico_drawdown.png) no-repeat right center; display:inline-block; width:8px; height:43px;  padding-left:5px;}
+#wrapper .menu ul li a.current span.icon, #wrapper .menu ul li a:hover span.icon{ background: url(../images/ico_drawdown02.png) no-repeat right center;}
+
+/*Drawdwon Menu 1*/
+#wrapper .menu ul li{ position:relative;}
+#wrapper .menu ul li ul{ position:absolute; top:43px; width:170px; left:0; border:1px #CCC solid; display:block; visibility:hidden; background:#fff; z-index: 125; } 
+#wrapper .menu ul li ul li{ float:none; font-size:14px; height:30px;border-bottom:1px #ccc solid; background:none;}
+#wrapper .menu ul li ul li.last{ border-bottom:none;}
+#wrapper .menu ul li:hover ul{ display:block; visibility:visible; background:#fff;} 
+#wrapper .menu ul li ul li a{ height:30px; line-height:30px; font-size:14px; display:block;}
+#wrapper .menu ul li.instructions ul{ width:210px;}
+#wrapper .menu ul li ul li a span.icon{ background: url(../images/ico_others.png) no-repeat right center; display:block; width:6px; height:30px; float:right; padding-left:5px;}
+#wrapper .menu ul li ul li a:hover span.icon{ background: url(../images/ico_others02.png) no-repeat right center; }
+
+/*Drawdwon Menu 2*/
+#wrapper .menu ul li ul li{ position:relative;}
+#wrapper .menu ul li.services ul li ul{ position:absolute; left:170px; width:250px; top:-1px;border:1px #CCC solid; display:block; visibility:hidden; background:#fff;} 
+#wrapper .menu ul li ul li ul li.last{ border-bottom:none;}
+#wrapper .menu ul li ul li:hover ul{ display:block; visibility:visible; background:#fff;} 
+#wrapper .menu ul li.services ul li.family ul{ width:310px;} 
+
+#wrapper .menu ul li.services ul li.cosmetic ul{ width:290px;} 
+
+/*Contents*/
+
+/* Banner */
+#wrapper .banner{ background:#f5f5f5;}
+#wrapper .banner img{ margin:0 auto; width:100%;/* display:block; */height:260px;}
+#wrapper .breadcrumbs{margin:0 auto; width:100%;}
+#wrapper .breadcrumbs .bold{ font-weight:bold;}
+#wrapper .breadcrumbs a{ text-transform:capitalize;}
+#wrapper .breadcrumbs a:hover{ color:#599AE0;}
+
+/* Left & Right */
+#wrapper .contents-part{margin:0 auto;}
+#wrapper .contents .contents-part{ padding-top:30px;}
+#wrapper .contents{ padding-bottom:35px;}
+#wrapper .contents .left{ /*width:580px; */ float:left; padding-right:30px }
+#wrapper .contents .left p{ /*padding-bottom:20px;*/	}
+#wrapper .contents .title{ background:url(../images/line_title.jpg) repeat-x left bottom; padding-bottom:8px; margin-bottom:15px;}
+#wrapper .contents h2{ font-size:20px; line-height:24px; color:#5192d8; background:url(../images/ico_title.jpg) no-repeat left center; padding-left:25px; text-transform:capitalize;}
+#wrapper .contents .right{ float:right; /*width:320px; */margin-top:28px; background:url(../images/line_left.jpg) repeat-y left top; padding-left:30px;}
+
+/* About Us */
+#wrapper .contents .right ul li{ margin-bottom:10px;}
+#wrapper .contents .right ul.about{ float:left; background:url(../images/bg_contact.jpg) no-repeat left top; width:320px; height:440px;}
+#wrapper .contents .right ul.about li{ margin-bottom:5px;  padding:15px 0 0 30px;}
+#wrapper .contents .right ul li h3{ font-size:16px; padding-bottom:3px; color:#666; font-weight:bold;}
+#wrapper .contents .right ul li h3 p{ font-size:14px; color:#666; line-height:20px;}
+
+/* Office Location/Map */
+#wrapper .contents .left .location ul{ float:left; clear:both; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #e3e3e3; width:100%; }
+#wrapper .contents .left .location ul.last{ border-bottom:none;}
+#wrapper .contents .left .location ul li{ float:left; padding-right:60px; }
+#wrapper .contents .left ul li h3{ font-size:16px; color:#666; font-weight:bold; padding-bottom:3px;}
+#wrapper .contents .left .location p{ padding:0px; line-height:20px; color:#666;}
+#wrapper .contents .left .map img{ width:580px; height:386px; display:block; border:1px solid #ccc; }
+#wrapper .contents .left .map{ display:block; clear:both; *padding:0px ; overflow: hidden; }
+
+/* Refer A Friend */
+#wrapper .contents .left .form{ font-size:14px;}
+#wrapper .contents .left .form p.required{ color:#d82424;}
+#wrapper .contents .left .form label{ font-weight:bold; color:#666; padding-bottom:8px;}
+#wrapper .contents .left .form label span{ font-size:12px; font-weight:normal;}
+#wrapper .contents .left .form input{ width:280px; border-style:none; border:1px solid #ccc; height:20px;}
+#wrapper .contents .left .form ul{ padding-bottom:15px; float:left;}
+#wrapper .contents .left .form ul li{ float:left; padding-right:10px;}
+#wrapper .contents .left .form ul li.lastname{ padding-right:0;}
+#wrapper .contents .left .form ul li.patientname input, #wrapper .contents .left .form ul li.relationship input{ width:576px;}
+#wrapper .contents .left .button{ padding:15px 0;}
+#wrapper .contents .left .button a{ background:url(../images/ico_submit_chi.jpg) no-repeat left top; width:120px; height:40px; display:block; }
+#wrapper .contents .left .button a:hover{ background:url(../images/ico_submit_chi.jpg) no-repeat left -40px; }
+
+
+#wrapper .contents .left .button .submitButton{ background:url(../images/ico_submit_chi.jpg) no-repeat left top; width:120px; height:40px; display:block; border: 0; cursor: pointer; }
+#wrapper .contents .left .button .submitButton:hover{ background:url(../images/ico_submit_chi.jpg) no-repeat left -40px; border: 0; }
+
+/* Appointment */
+#wrapper .contents .left .form select{ width:120px; height:25px; margin:0 10px; display:block; border:1px solid #ccc;}
+#wrapper .contents .left .form .state{ margin:0 10px;}
+#wrapper .contents .left .form input#zipcode{ width:120px;}
+#wrapper .contents .left .form li.address input{ /*width:576px;*/}
+#wrapper .contents .form ul li.alternatephone{ padding-right:0;}
+#wrapper .contents .left .form select#sel{ width:280px; margin-left:0px;}
+#wrapper .contents .left .form li.current label, #wrapper .contents .left .form li.alternatephone label, #wrapper .contents .left .form li.address2 label{ font-weight:normal;}
+#wrapper .contents .left .form li.current{ padding-bottom:20px;}
+#wrapper .contents .left .available { padding-top:20px; border-top:1px solid #ccc;}
+#wrapper .contents .left .time{ padding:20px 0;}
+#wrapper .contents .left .available p, #wrapper .contents .left .time p{ padding-bottom:10px;}
+#wrapper .contents .left .available label, #wrapper .contents .left .time label{ padding-right:23px; *padding-right:15px; padding-right:15px\9;}
+#wrapper .contents .left .available label input, #wrapper .contents .left .time label input{ vertical-align:middle; }
+#wrapper .contents .left .available label span, #wrapper .contents .left .time label span { vertical-align:middle;}
+#wrapper .contents .left .describe { width:100%; padding:15px 0 20px 0;}
+#wrapper .contents .left .describe span{ font-size:14px; font-weight:bold; color:#666; padding-bottom:4px; display:block;}
+#wrapper .contents .left .describe textarea{ width:100%; border:1px solid #ccc;}
+input#best_appointment_time {width: 100%;}
+/* Article */
+
+#wrapper .contents .left .article	{
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-size: 14px;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 1.4em;
+}
+
+#wrapper .contents .left .article ul, #wrapper .contents .left .article ol{
+	padding-bottom: 20px;
+}
+
+#wrapper .contents .left .article ul li {	list-style: inside circle;	padding-left: 40px; }
+#wrapper .contents .left .article ol li {	list-style: inside decimal;	padding-left: 40px; }
+/*
+#wrapper .contents .left .article p.subtitle{ font-size:16px; font-weight:bold;}
+#wrapper .contents .left .article p.list{ padding:0 0 0 15px;line-height:20px; background:url(../images/dot.jpg) no-repeat left center;}
+#wrapper .contents .left .article p.last{background:url(../images/dot.jpg) no-repeat left 7px; padding-left:15px;}
+*/
+/* Office Hours */
+#wrapper .contents .officehours { width:100%;}
+#wrapper .contents .officehours .tags{ border-bottom: 4px solid #cce5ff; height:42px; margin-bottom: 10px; }
+#wrapper .contents .officehours .tags li{ float:left; padding-right:8px; } 
+#wrapper .contents .officehours .tags li a { background:url(../images/bg_tags.jpg) no-repeat center -42px;  width:134px; height:42px; display:inline-block; text-align:center; font-size:18px; font-weight:bold; text-transform:uppercase; line-height:42px;}
+#wrapper .contents .officehours .tags li a.current, #wrapper .contents .officehours .tags li a:hover{  background:url(../images/bg_tags.jpg) no-repeat center top;}
+#wrapper .contents .officehours .calendar{ border:2px solid #cce5ff; padding:35px 0; float:left; width:100%;}
+#wrapper .contents .officehours .calendar h4{ text-align:center; font-size:24px; font-weight:bold; color:#666; }
+#wrapper .contents .officehours .calendar .month{ border:1px solid #ccc;width:930px; margin:20px auto;}
+#wrapper .contents .officehours .calendar .month ul{float:left; margin-left:0;  width: 100%; border-bottom:1px solid #ccc;}
+/*#wrapper .contents .officehours .calendar .month ul.last{ border-bottom:none;}*/
+#wrapper .contents .officehours .calendar .month ul.week li{ height: 80px; background:#cce5ff; font-size:18px; line-height:60px; font-weight:normal; height:60px;  text-transform:capitalize; width: 14.28%; float: left;}
+/**/#wrapper .contents .officehours .calendar .month ul li.last{ border-right:none;}
+#wrapper .contents .officehours .calendar ul li{ float:left; width: 14.28%; text-align:center;border-right:1px solid #ccc; color:#666;padding:10px 0; min-height: 140px; }
+#wrapper .contents .officehours .calendar ul li p.date{ font-size:24px; }
+#wrapper .contents .officehours .calendar ul li p.situation{ font-size:12px; text-transform:uppercase;}
+#wrapper .contents .officehours .calendar ul li p.time{ font-size:14px; color:#599AE0;}
+
+/* Promotion */
+#wrapper .contents .promotions{ width:278px; float:left; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border:1px solid #e3e3e3; box-shadow:0 2px 3px #ccc; -webkit-box-shadow:0 2px 3px #ccc; -moz-box-shadow:0 2px 3px #ccc; margin:0 20px 30px 0; position:relative; background:#f7f7f7; }
+#wrapper .contents .second{ margin-right:0px; float:right;}
+#wrapper .contents .promotions h3{ text-align:center; font-size: 16px; font-weight:bold; line-height:24px; color:#0053ad; padding:20px 0 4px 0;}
+#wrapper .contents .promotions p.subtitle{ text-align:center; font-size:12px; width:235px; margin:0 auto;}
+#wrapper .contents .promotions img{ width:200px; heigth:133px; padding:10px 0; margin:0 auto; display:block;}
+#wrapper .contents .promotions .discreption{ width:235px; text-align:left; margin:0 auto;}
+#wrapper .contents .promotions .discreption p{ font-size:12px;}
+#wrapper .contents .promotions .discreption p span{ font-weight:bold; }
+#wrapper .contents .promotions .discreption .red{ color:#e61713;}
+#wrapper .contents .promotions .discreption p.exp{ padding-bottom:0;}
+#wrapper .contents .promotions .discreption p.traditional{ margin-top:-20px;}
+#wrapper .contents .promotions .discreption .small{ font-size:12px; font-weight:normal;}
+#wrapper .contents .promotions .discreption p.special{ padding-top:15px;}
+
+
+/* Footer */
+#wrapper .bottom{margin:0 auto; width:960px;}
+#wrapper .bottom ul{ text-align:center; padding-top:15px;}
+#wrapper .bottom ul li{ display:inline;}
+#wrapper .bottom ul li a{ font-size:11px; color:#666; background:url(../images/line_bottom.jpg) no-repeat right center; padding:0 10px;}
+#wrapper .bottom ul li a:hover{ text-decoration:underline; color:#599AE0;}
+#wrapper .bottom ul li.last a{ background:none;}
+#wrapper .bottom p{ font-size:11px; text-align:center; padding-top:5px;}
+#wrapper .bottom p a:hover{ color:#599AE0;}
+
+
+#wrapper .contents .left .form label.error, label.error, div.error { float: none; color: red; vertical-align: top;  }
+
+#wrapper .contents .left input.error, #wrapper .contents .left select.error, #wrapper .contents .left textarea.error { border: 1px solid #D82424; }
+#wrapper .contents .left label.error { font-weight: normal; }
+
+.sidebar h3 { text-align:center; margin-bottom:10px; font-size:16px; color:#5192d8; }
+.note { font-weight:bold; text-decoration:underline; font-size:12px; }
+
+
+#wrapper .contents .contactinfo{ padding:30px 0 35px 0;}
+#wrapper .contents .contactinfo .title{ margin-bottom:15px;}
+#wrapper .contents .contactinfo ul li{ float:left; padding-right:42px;}
+#wrapper .contents .contactinfo ul li h3{ font-size:12px; line-height:20px; text-transform:uppercase; padding-bottom:5px;}
+#wrapper .contents .contactinfo ul li p{ font-size:12px; color:#999; line-height:18px;}
+#wrapper .contents .contactinfo ul li p.fb a{ background:url(../images/ico_fb.jpg) no-repeat left top; width:18px; height:19px; float:left; margin-right:8px;}
+#wrapper .contents .contactinfo ul li p.fb a:hover{ background:url(../images/ico_fb.jpg) no-repeat left -19px; }
+#wrapper .contents .contactinfo ul li p.tw a{ background:url(../images/ico_tw.jpg) no-repeat left top; width:18px; height:19px; float:left;}
+#wrapper .contents .contactinfo ul li p.tw a:hover{ background:url(../images/ico_tw.jpg) no-repeat left -19px; }
+
+#ask_doctor { width:100%; margin:0 auto; padding-top:20px; }
+.input input[type='text'], .input textarea,  #ask_doctor img { width:100%; }
+#ask_doctor .btn_submit { padding:7px 20px; background-color:#73a7f3; color:#fff; font-weight:bold; border:none; cursor:pointer; margin-top:10px; }
+#ask_doctor .success { color:#55AB7A; }
+#ask_doctor .error { color:#d10000; }
+
+@media (min-width: 991px) {
+	#wrapper .contents .officehours .calendar ul  { margin-bottom: 0;}
+	#wrapper .contents .officehours .calendar ul li { float: left;   width: 14.28%;}
+}
+
+@media (max-width: 991px) {#wrapper .menu { background: none;}
+	/* #wrapper .contents .officehours .calendar .month ul{float:none;} */
+	 #wrapper .contents .officehours .calendar .month ul.week li {float: none; width: 100%;}
+ 	#wrapper .contents .officehours .calendar .month ul.week { display: none;}
+
+ }
+
+@media (max-width: 600px) {
+  .contactwr .contents .left { width: 100%;}
+}
